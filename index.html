@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-lato">
+    <header class="md:container md:mx-auto">
+        <!-- Nav Bar -->
+        <div class="pt-14 grid grid-cols-2 lg:grid-cols-4">
+            <div class="navbar rounded-full bg-[#E85057] w-[1440px] h-[120px] ">
+            <div class="">
+            <ul class="flex gap-8 text-xl ml-14">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">All Fruits</a></li>
+            </ul>
+            </div>
+            <div class="ml-44 mr-40">
+                <img class="mr-4" src="./images/logo.png" alt="">
+                <h3 class="text-4xl">Fruit Brust</h3>
+            </div>
+            <div class="flex-none gap-2">
+            <div class="form-control w-[400px]">
+                <input type="text" placeholder="Search Here" class="input input-bordered w-24 md:w-auto" />
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+    <main class="md:container md:mx-auto">
+
+    </main>
+</body>
+</html>
